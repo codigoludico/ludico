@@ -1,0 +1,16 @@
+{
+  "plugins": ["plugins/markdown"],
+  "source": {
+    "include": ["src"],
+    "includePattern": ".+\\.jsx?$"
+  },
+  "opts": {
+    "template": "node_modules/minami",
+    "encoding": "utf8",
+    "destination": "dist/docs",
+    "tutorials": "docs/tutorials",
+    "readme": "README.md",
+    "recurse": true,
+    "verbose": true
+  }
+}
